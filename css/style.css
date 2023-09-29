@@ -1,0 +1,68 @@
+/* header */
+a{
+    color: black;
+    text-decoration: none;
+    font-family: arial;
+    margin: 0 15px 0 0;
+}
+#header svg{
+    width: 30px;
+    opacity: 0.65;
+    vertical-align: middle;
+    margin: 0 15px 0 0;
+}
+#signin-btn{
+    background-color: blue;
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: white;
+}
+#header{
+    text-align: right;
+    margin: 20px 0 0 0;
+}
+#main{
+    text-align: center;
+    margin: 100px auto;
+    width: 500px;
+}
+#search-box svg{
+    width: 20px;
+}
+#search-box{
+    border: 1px solid gray;
+    border-radius: 45px;
+    padding: 5px;
+    margin: 20px 0 0 0;
+}
+#search-box input{
+    border: none;
+    padding: 5px;
+    width: 80%;
+    outline: none;
+}
+#search-box * {
+    vertical-align: middle;
+}
+#search-box svg:first-of-type{
+    fill: gray;
+}
+#main-btn a{
+padding: 15px 20px;
+background-color: rgb(216, 205, 205);
+border-radius: 5px;
+}
+#main-btn{
+    margin: 30px 0 0 0;
+}
+#footer div{
+    display: inline-block;
+}
+#footer-right{
+    float: right;
+}
+#footer{
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+}
